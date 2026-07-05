@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0033_000.yaml, hash: 'sha256:7f49b479a8fc4868e662b4ac403d3ac34d17de5db9fb127a9e102f030997de06'}
-  - {seq: 1, filename: KR6b0033_001.yaml, hash: 'sha256:5086836522f9124fe7839b4cafb7244ed81827eb5ded7248ec395e45f6051043'}
+  - {seq: 1, filename: KR6b0033_001.yaml, hash: 'sha256:44a9aa80c162e8d0129df4d924d7625fcc9577fe1bcf716fd5c1ae8f7c76efed'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6b0033_001.markers.yaml, hash: 'sha256:2984c7b09c977ee94c5184cd5ba080b74563474ec4e2426b893f6b8c075e12a9'}
+  - {seq: 0, role: markers, filename: assets/KR6b0033_000.markers.yaml, hash: 'sha256:083b581f1de7c722d570806db02884516fc7808db6296bd339ea41ac2e5deb31'}
+  - {seq: 1, role: markers, filename: assets/KR6b0033_001.markers.yaml, hash: 'sha256:efc2dc5b8a4cc6a56a56188d75972be4ab436833e8dbc825e2af937ffc252c25'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 銀色女經
   type: juan
   level: 1
-hash: sha256:828e9d660c1daa53948094bc6fb759ed866008fe0a6911e60d704ffd14d9d29d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:a35e1b03d05a1d13fdf441bef71cbb86ab73a373078cf4ebaa419905b09d096f
