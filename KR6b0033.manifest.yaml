@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6b0033/v1
 canonical_location: https://kanripo.org/bkk/KR6b0033/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 銀色女經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0033_000.yaml, hash: 'sha256:7f49b479a8fc4868e662b4ac403d3ac34d17de5db9fb127a9e102f030997de06'}
-  - {seq: 1, filename: KR6b0033_001.yaml, hash: 'sha256:44a9aa80c162e8d0129df4d924d7625fcc9577fe1bcf716fd5c1ae8f7c76efed'}
+  - {seq: 1, filename: KR6b0033_001.yaml, hash: 'sha256:807a1a9782ab30ffdb23b026a726315432c79ecca614b6cda14ea988378a3cd4'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6b0033_000.markers.yaml, hash: 'sha256:083b581f1de7c722d570806db02884516fc7808db6296bd339ea41ac2e5deb31'}
-  - {seq: 1, role: markers, filename: assets/KR6b0033_001.markers.yaml, hash: 'sha256:efc2dc5b8a4cc6a56a56188d75972be4ab436833e8dbc825e2af937ffc252c25'}
+  - {seq: 1, role: markers, filename: assets/KR6b0033_001.markers.yaml, hash: 'sha256:1c897ca49870d4650e84b555cc9882b06fac27689b3d77cf95e5a65635c8af6f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 銀色女經
   type: juan
   level: 1
-hash: sha256:a35e1b03d05a1d13fdf441bef71cbb86ab73a373078cf4ebaa419905b09d096f
+hash: sha256:b95ae238d271f14879fb27a0c66bb435f4b27172263390fe27721e480f0e64ba
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
